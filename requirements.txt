@@ -1,0 +1,9 @@
+phidata
+python-dotenv
+yfinance
+openai
+packaging
+fastapi    #Basically handles frontend application  and since using phidata to run in cloud
+uvicorn
+duckduckgo-search   #It's a tool typically used by agent to do any kind of websearch.
+groq    # Has all the open source libraries & will get API as well.

@@ -1,0 +1,13 @@
+prefix=/Users/suyashmali/Projects/AI_AGENT/venv
+exec_prefix=/Users/suyashmali/Projects/AI_AGENT/venv
+libdir=/Users/suyashmali/Projects/AI_AGENT/venv/lib
+sharedlibdir=/Users/suyashmali/Projects/AI_AGENT/venv/lib
+includedir=/Users/suyashmali/Projects/AI_AGENT/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
